@@ -6,27 +6,23 @@ const findLargest = (arr) => {
     for (let i = 0; i < arr.length; i++) {
         if (largest < arr[i]) {
             largest = arr[i]
-        } else {
-            largest[0]
-        }
+        } 
     }
     return console.log(largest);
 }
 
 findLargest(arr)
 
-// Find the largest Number  form the array
-const smallestNum = (arr) => {
-    let smallest = arr[0]
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] < smallest) {
-            smallest = arr[i]
-        } else {
-            smallest[0]
-        }
+// Find the smallest Number  form the array
+// const smallestNum = (arr) => {
+//     let smallest = arr[0]
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] < smallest) {
+//             smallest = arr[i]
+//         } 
 
-    }
-    return console.log(smallest);
-}
+//     }
+//     return console.log(smallest);
+// }
 
-smallestNum(arr)
+// smallestNum(arr)
