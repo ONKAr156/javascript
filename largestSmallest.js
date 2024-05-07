@@ -1,6 +1,6 @@
 const arr = [1000, 2500, 22, 20, 16555, 45, 30, 1500, 1]
 
-
+// Find the largest Number  form the array
 const findLargest = (arr) => {
     let largest = arr[0]
     for (let i = 0; i < arr.length; i++) {
@@ -15,7 +15,7 @@ const findLargest = (arr) => {
 
 findLargest(arr)
 
-
+// Find the largest Number  form the array
 const smallestNum = (arr) => {
     let smallest = arr[0]
     for (let i = 0; i < arr.length; i++) {
