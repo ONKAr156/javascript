@@ -19,16 +19,16 @@ console.log(second_largest)
 
 //Find the smallest 2nd Number form the array ------------------------------------------
 
-const arr = [45, 10, 20, 30, 40, 50];
-let smallest = arr[0];
+const arr2 = [45, 10, 20, 30, 40, 50];
+let smallest = arr2[0];
 let second;
 
-for (let i = 1; i < arr.length; i++) {
-    if (arr[i] < smallest) {
+for (let i = 1; i < arr2.length; i++) {
+    if (arr2[i] < smallest) {
         second = smallest; // Update second smallest to previous smallest
-        smallest = arr[i]; // Update smallest to current element
-    } else if (arr[i] < second || second === undefined) {
-        second = arr[i]; // Update second smallest if current element is greater than the current second largest
+        smallest = arr2[i]; // Update smallest to current element
+    } else if (arr2[i] < second || second === undefined) {
+        second = arr2[i]; // Update second smallest if current element is greater than the current second largest
     }
 }
 
