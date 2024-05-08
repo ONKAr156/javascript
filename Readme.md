@@ -22,7 +22,7 @@
 ## Binary Search Algorithm
 
 
-- **Assumptions**
+- **Assumptions :-**
 
 - The `binarySearch` function assumes that the input array (`arr`) is sorted in ascending order Only.
 - The `num` parameter provided to `binarySearch` is assumed to be a number that we want to search for within the sorted array (`arr`).
