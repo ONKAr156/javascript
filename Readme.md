@@ -1,7 +1,6 @@
 ## Bubble Sort Algorithm
 
 - **Logic**:
-  - Bubble Sort is a simple comparison-based sorting algorithm.
   - It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
   - During each pass through the list, the largest unsorted element "bubbles up" to its correct position at the end of the list.
   - The algorithm consists of two nested loops:
