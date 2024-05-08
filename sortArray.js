@@ -6,15 +6,34 @@ const bubbleSort = (arr) => {
         for (let j = 0; j < i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
                 // Swap arr[j] and arr[j + 1] imp 👇
-                [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]; 
+                [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
             }
         }
     }
-    return console.log(arr) 
+    return console.log(arr)
 }
 
 bubbleSort(arr)
 
 // ---------------------------------------------------------------------------------------
+
+const arr1 = [29, 10, 30, 9, 31, 8, 32, 7,0,1]
+
+const insertionSort = (arr) => {
+    for (let i = 1; i < arr.length; i++) {
+        let curr = arr[i]
+        let j = i - 1
+
+        while (j >= 0 && arr[j] > curr) {
+            arr[j + 1] = arr[j]
+            j--
+        }
+        arr[j + 1] = curr
+
+    }
+    return console.log(arr);
+}
+
+insertionSort(arr1)
 
 
