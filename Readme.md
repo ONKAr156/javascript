@@ -22,12 +22,12 @@
 ## Binary Search Algorithm
 
 
-## Assumptions
+- **Assumptions**
 
 - The `binarySearch` function assumes that the input array (`arr`) is sorted in ascending order Only.
 - The `num` parameter provided to `binarySearch` is assumed to be a number that we want to search for within the sorted array (`arr`).
 
-## Logic
+- **Logic**
 
 - **Binary Search Overview**:
   - Binary search is a classic search algorithm that efficiently finds the position of a target value within a sorted array.
