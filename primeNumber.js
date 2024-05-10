@@ -1,5 +1,4 @@
 const checkPrimeNumber = (num) => {
-    // We need to handle the case where num is less than or equal to 1
     if (num <= 1) {
         console.log("Not a prime number");
         return;
@@ -12,8 +11,7 @@ const checkPrimeNumber = (num) => {
         }
     }
 
-    // If the loop completes without finding divisors, then num is prime
     console.log("IS PRIME");
 }
 
-checkPrimeNumber(14);
+checkPrimeNumber(13);
