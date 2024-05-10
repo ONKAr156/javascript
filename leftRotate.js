@@ -14,3 +14,6 @@ const shiftLeft = (arr, n) => {
 
 
 shiftLeft(arr, 1)
+
+
+
