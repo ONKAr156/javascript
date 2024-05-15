@@ -69,3 +69,12 @@ const triangle = (num) => {
 }
 let str = triangle(5)
 // console.log(str);
+
+let strr = ""
+for (let i = 0; i <= 2; i++) {
+    for (let j = 0; j < i - 1; j++) {
+        console.log();
+
+    }
+
+}
