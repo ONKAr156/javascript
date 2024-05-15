@@ -87,24 +87,5 @@
 // const xc = pattern(5)
 // console.log(xc);
 
-const pattern = (n) => {
-    let str = "";
-    for (let i = 0; i <= n; i++) {
-        for (let j = 1; j <= i + 1; j++) {
-            let num = j; // Use a separate variable to avoid altering the loop variable
-            if (num % 2 === 0) {
-                num = 0;
-            } else if (num % 3 === 0 || num % 5 === 0) {
-                num = 1;
-            }
-            str += num;
-        }
-        str += "\n";
-    }
-    return str;
-};
-
-const xc = pattern(5);
-console.log(xc);
 
 
