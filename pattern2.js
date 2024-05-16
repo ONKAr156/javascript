@@ -103,4 +103,56 @@ x = z
 
 console.log(x, y);
 
+// #6 star pyramid up 
+// const pattern = (n) => {
+//     let str = ""
+//     for (let i = 1; i <= n; i++) {
+//         for (let j = n; j > i - 1; j--) {
+//             str += "  "
+//         }
 
+//         for (let k = 1; k <= i; k++) {
+//             str += "* "
+
+//         }
+//          for (let l = 2; l <= i; l++) {
+//             str += "* "
+
+//         }
+//         str += "\n"
+
+//     }
+//     return console.log(str);
+
+// }
+
+// pattern(5)
+
+// #7 star pyramid down 
+const pattern = (n) => {
+    let str = ""
+    for (let i = n; i > 0; i--) {
+         for (let k = 0; k < n - i; k++) {
+            str += "  "
+
+        }
+      
+        
+        for (let j = 0; j < i; j++) {
+            str += "* "
+
+        }
+        for (let l = 1; l < i; l++) {
+            str += "* "
+
+        }
+        
+
+        str += "\n"
+
+    }
+    return console.log(str);
+
+}
+
+pattern(5)
