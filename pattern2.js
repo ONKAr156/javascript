@@ -87,5 +87,20 @@
 // }
 // console.log(str);
 
+const arr = [5, 4, 7, 1, 2, 9]
+let num = arr[2]
+arr[2] = arr[3]
+arr[3] = num
+console.log(arr);
+
+
+
+let x = 10, y = 20
+
+let z = y
+y = x
+x = z
+
+console.log(x, y);
 
 
