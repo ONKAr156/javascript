@@ -26,6 +26,7 @@
 //         return 0
 //     }
 //     return arg + sum(arg - 1)
+//           arg 👆 + function 👆      send kre idhar
 
 // }
 
@@ -34,27 +35,53 @@
 
 
 //# Reverse the string
-const str = "HELLO";
-console.log(str.substring(1));
-const revStr = (arg) => {
-    if (arg.length === 0) {
-        return arg;
+// const str = "HELLO";
+// console.log(str.substring(1));
+// const revStr = (arg) => {
+//     if (arg.length === 0) {
+//         return arg;
+//     }
+//     return revStr(arg.substring(1)) + arg.charAt(0);
+//     //        function 👆          + char 👆      send kre idhar
+//     /*
+//     hello
+//      ello +  h
+//      llo +  e
+//      lo + l
+//      o + l
+//     ""+ o
+//      last  olleh
+
+//     */
+// }
+
+// console.log(revStr(str));
+
+
+// print number 
+
+// const findNumber = (a, b) => {
+//     let num =1
+//     for (let i = 1; i <= b; i++) {
+//         num *= a
+//     }
+//     return num
+
+// }
+
+// const result = findNumber(5, 3)
+// console.log(result);
+
+//using recurssion
+
+const findNumber = (a, b) => {
+    if (b === 1) {
+        return 1
     }
-    return revStr(arg.substring(1)) + arg.charAt(0);
+    return a * findNumber(a, b - 1)
 
-    /*
-    hello
-     ello +  h
-     llo +  e
-     lo + l
-     o + l
-    ""+ o
-     last  olleh
-
-    */
 }
 
-console.log(revStr(str));
-
-
+const result = findNumber(5, 3)
+console.log(result);
 
