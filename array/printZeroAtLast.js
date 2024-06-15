@@ -14,10 +14,7 @@ const printZeroAtLast = (arr) => {
         }
     }
 
-
     return console.log(nw);
-
-
 }
 printZeroAtLast(arr)
 
